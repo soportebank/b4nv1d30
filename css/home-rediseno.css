@@ -1,0 +1,203 @@
+.margin-cabecera-top{
+    padding-top: 250px;
+}
+
+.container-cabecera{
+    max-width: 100%;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.5);
+}
+  
+#video-mobile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+}
+#video-descktop{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.quiero-ser-cliente{
+    text-align: center;
+}
+
+.onbording-digital{
+    background-color: #fff;
+}
+  
+.aside-banca-electronica{
+    position: absolute;
+    background-color: #fff;
+    top: 500px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.productos-onboarding{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width: 1024px){
+    .aside-banca-electronica{
+        position: relative;
+        border-radius: 0px;
+        top: 0px;
+        right: 0px;
+    } 
+}
+  
+@media(max-width: 767px){
+
+    #video-descktop{
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        -ms-transform: none;
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+}
+
+@media(max-width: 400px){
+    .container-cabecera{
+        height: 569px;
+    }
+
+    .margin-cabecera-top {
+        padding-top: 150px;
+    }
+    
+}
+  
+  .banca-electronica{
+    padding: 20px;
+    text-align: unset;
+  }
+  
+  .banca-electronica h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  
+  .banca-electronica span, a{
+    color: #ff671b;
+  }
+  
+  .banca-electronica input{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 2px solid #e2e2e2;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .banca-electronica input:focus{
+    outline: 0;
+  }
+
+  .quiero-ser-cliente a:hover{
+      color: #fff;
+  }
+
+  .contacto-tel:hover{
+    color: #000000;
+}
+
+/*.contacto-tel{
+    font-weight: bold;
+}*/
+
+#popover-contacto:focus{
+    outline: 0;
+}
+
+#popover-divisas:focus{
+    outline: 0;
+}
+.divisas-container{
+    max-width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.contacto-container{
+    max-width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.divisas-table th{
+    border-top: none;
+}
+
+.divisas-table tbody th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.tipo-cambio{
+    font-size: 18px;
+}
+
+.quiero-ser-cliente h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.font-size-16{
+    font-size: 16px;
+}
+
+.hover-orange-cuenta:hover{
+    color: #ff671b;
+}
+
+.hover-orange-tdc:hover{
+    color: #ff671b;
+}
+
+.hover-orange-seguroauto:hover{
+    color: #ff671b;
+}
+
+.actived {
+    color: #000000;
+}
+
+.actived:hover {
+    color: #ff671b;
+}
+
+.background-tooltip{
+    background-color: #000000;
+}
